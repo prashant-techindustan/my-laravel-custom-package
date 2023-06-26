@@ -1,0 +1,18 @@
+{
+    "name": "prashant/inspire",
+    "description": "This package will show inspirational quotes",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prashant\\Inspire\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "prashant"
+        }
+    ]
+}
